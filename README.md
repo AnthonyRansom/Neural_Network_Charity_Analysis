@@ -36,11 +36,14 @@ The following details what was attempted to increase the accuracy:
  - No, The target performance of 75% was not achieved
  - The following was attempted to increase the accuracy
 	- Attempt 1: additional preprocessing was done the data where the "STATUS" feature was removed and the "ASK"AMT" feature was divided into 2 buckets
+	
 	![ask_amt_binning](/analysis/ask_amt_binning.PNG)
 	- Attempt 2: looked at increasing/decreasing the number of Neurons, hidden layers and epochs to various values with the final model containing 3 hidden layers with 150, 100 and 50 neurons respectively and only using 13 epochs
+	
 	![achieved_accuracy_model_summary](/analysis/achieved_accuracy_model_summary.PNG)
 	![achieved_accuracy_model_fit](/analysis/achieved_accuracy_model_fit.PNG)
 	- Attempt 3: looked at changing the activation functions for each hidden layer resulting in relu used for the first two layers and sigmoid for the last layer and the output
+	
 	![achieved_accuracy_model](/analysis/achieved_accuracy_model.PNG)
 
 #### Original Accuracy graph with 10 epochs
